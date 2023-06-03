@@ -1,6 +1,11 @@
 This is the new file
 git status - provides the status of the branch
 git clone - clone from remote reposity
-git checkout - move the other branch which we need to move out
+git add . - Add all files
+
+git checkout  - move the other branch which we need to move out
+git checkout -b <new branch name>
 git push - push the code to the branch
-git commit - save the code that we added.
+git commit -m "message of the file" - save the code that we added.
+git push -u origin <branch name> { for the  first time}
+git push { for a old branch}
